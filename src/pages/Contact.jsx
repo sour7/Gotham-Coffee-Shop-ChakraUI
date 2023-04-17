@@ -2,7 +2,8 @@ import { Box, Heading, Text, Input, Textarea, Button } from "@chakra-ui/react";
 
 const Contact = () => {
   return (
-    <Box maxW="700px" mx="auto" py="10">
+   <Box>
+     <Box maxW="700px" mx="auto" py="10" w="80%" m="auto">
       <Heading as="h1" mb="6">
         Contact Us
       </Heading>
@@ -19,6 +20,7 @@ const Contact = () => {
         </Button>
       </Box>
     </Box>
+   </Box>
   );
 };
 

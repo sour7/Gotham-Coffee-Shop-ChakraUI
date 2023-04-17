@@ -38,10 +38,10 @@ const ProductCard = ({item}) => {
       <Divider />
       <CardFooter>
         <ButtonGroup spacing="2">
-          <Button variant="solid" colorScheme="blue">
+          <Button variant="solid" colorScheme="teal">
             Buy now
           </Button>
-          <Button variant="ghost" colorScheme="blue">
+          <Button variant="ghost" colorScheme="teal">
             Add to cart
           </Button>
         </ButtonGroup>

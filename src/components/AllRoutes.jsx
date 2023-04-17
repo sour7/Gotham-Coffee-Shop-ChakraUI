@@ -7,6 +7,7 @@ import About from "../pages/About";
 
 import Login from "../pages/Login";
 import Contact from "../pages/Contact";
+import StopWatch from "./StopWatch";
 
 export default function AllRoutes() {
   return (
@@ -17,6 +18,7 @@ export default function AllRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/time" element={<StopWatch />} />
       </Routes>
       <Footer />
     </>

@@ -4,7 +4,7 @@ import ProductCard from '../components/ProductCard.jsx'
 import {SimpleGrid ,Grid,Box} from "@chakra-ui/react";
 const Home = () => {
   const [data, setData] = useState(products)
-  console.log(data)
+  // console.log(data)
 
 
 
@@ -14,7 +14,10 @@ const Home = () => {
   {
     data.map((e)=>(
 
-      <ProductCard item={e} />
+      <Box key={e.id}>
+
+<ProductCard item={e} />
+      </Box>
 
     ))
   }

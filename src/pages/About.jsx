@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <Box textAlign="center" maxW="700px" mx="auto" py="10">
+   <Box>
+     <Box textAlign="center" maxW="700px" mx="auto" py="10" w="80%">
       <Heading as="h1" fontSize={{ base: "5xl", md: "6xl" }}>
         About Us
       </Heading>
@@ -27,6 +28,7 @@ const About = () => {
         </Button>
       </Box>
     </Box>
+   </Box>
   );
 };
 

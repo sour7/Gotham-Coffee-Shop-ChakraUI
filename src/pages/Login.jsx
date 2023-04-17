@@ -11,7 +11,8 @@ function Login() {
   };
 
   return (
-    <Box w="400px" m="auto" my="20">
+    <Box>
+      <Box  m="auto" my="20" w="80%">
       <form onSubmit={handleSubmit}>
         <FormControl mb="4">
           <FormLabel>Email address</FormLabel>
@@ -31,10 +32,11 @@ function Login() {
             onChange={(event) => setPassword(event.target.value)} 
           />
         </FormControl>
-        <Button type="submit" colorScheme="blue" width="100%">
+        <Button type="submit" colorScheme="teal" width="100%">
           Sign In
         </Button>
       </form>
+    </Box>
     </Box>
   );
 }
